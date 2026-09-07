@@ -20,7 +20,7 @@ export default function ProductCard({ product }: { product: Product }) {
             src={displayVariant.imageUrl}
             alt={product.name}
             fill
-            className="object-contain p-3 transition-transform duration-300 group-hover:scale-105"
+            className="object-contain p-3"
             sizes="(max-width: 768px) 50vw, 200px"
           />
         </div>
